@@ -43,9 +43,9 @@ npm install # Instala as dependências necessárias para rodar o projeto
 
 Na pasta *ssjl*, abra o terminal e digite:
 
-bash
+```bash
 del README.md # Apaga este arquivo de instrução do seu repositório
-
+```
 
 ---
 
