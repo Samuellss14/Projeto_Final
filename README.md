@@ -1,6 +1,6 @@
 # 🗂 Estrutura de Pastas do Projeto
 
-bash
+```bash
 Projeto Final
 ├── Backend
 │   ├── scriptSQL
@@ -10,7 +10,7 @@ Projeto Final
 │   └── ssjl
 │
 └── README.md
-
+```
 
 ---
 
@@ -21,19 +21,19 @@ Projeto Final
 1. Na *Área de Trabalho, clique com o botão direito e selecione **“Abrir no Terminal”*.  
 2. Cole o comando abaixo no terminal:
 
-bash
+```bash
 git clone https://github.com/Samuellss14/Projeto_Final.git # Clona este repositório para sua Área de Trabalho
-
+```
 
 ## ⚙ 2. Configurando o Projeto
 
 1. Na pasta *ssjl, clique com o botão direito e selecione **“Abrir no Terminal”*.
 2. Cole os comandos abaixo:
 
-bash
+```bash
 cd Frontend/ssjl # Vai até o Frontend em Next.js (pasta "ssjl")
 npm install # Instala as dependências necessárias para rodar o projeto
-
+```
 
 ---
 
@@ -53,11 +53,11 @@ del README.md # Apaga este arquivo de instrução do seu repositório
 
 Esse passo é importante para evitar que você envie atualizações para o repositório errado.
 
-bash
+```bash
 git remote -v # Lista os repositórios vinculados
 git remote remove origin # Remove a referência do repositório atual
 git remote -v # Se não retornar nada, a remoção deu certo
-
+```
 
 ---
 
@@ -65,14 +65,14 @@ git remote -v # Se não retornar nada, a remoção deu certo
 
 Na pasta *Saep*, execute:
 
-bash
+```bash
 git init
 git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/SEU_USUARIO/NOVO_REPOSITORIO.git # Substitua pela URL do seu novo repositório
 git push -u origin main
-
+```
 
 ---
 
@@ -80,16 +80,16 @@ git push -u origin main
 
 ## 🔄 1. Atualizando o Projeto
 
-bash
+```bash
 git add .
 git commit -m "new commit"
 git push
-
+```
 
 ---
 
 ## 🌐 2. Alterando a URL de Conexão com o GitHub
 
-bash
+```bash
 git remote set-url origin https://github.com/SEU_USUARIO/NOVO_REPOSITORIO.git  # Substitua pela URL do seu projeto
-
+```
