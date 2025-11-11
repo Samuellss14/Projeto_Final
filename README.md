@@ -63,7 +63,7 @@ git remote -v # Se não retornar nada, a remoção deu certo
 
 ## ☁ 3. Postando o Projeto no GitHub
 
-Na pasta *Saep*, execute:
+Na pasta *ssjl*, execute:
 
 ```bash
 git init
